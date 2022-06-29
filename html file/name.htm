@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/name.css">
+  <title>Name_task</title>
+
+</head>
+
+<body>
+  <div class="container">
+    <table id="table">
+      <h3>To Do List</h3>
+      <tr>
+        <th>Enter Task</th>
+        <th>Action</th>
+        
+      </tr>
+      <tr id='row1'>
+        <td><input type="text" name="textarea" id="textarea" onfocus="this.value=''"></td>
+        <td><button type="submit" id="add_btn" value="Submit" class="add_class">Add</button> </td>
+      </tr>
+    </table>
+    <table id="table2">
+      <tr>
+        <th>Name</th>
+        <th>Action</th>
+        <th>&#9989/ &#x274C</th>
+      </tr>
+      <tbody id="tbody">
+
+      </tbody>
+    </table>
+      
+    
+    
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+  <script src="../js/name.js"></script>
+</body>
+
+</html>
